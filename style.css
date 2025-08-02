@@ -2,6 +2,39 @@
 
 }
 
-section #hero{
+img{
+    max-width: 100vw;
+}
+
+.container-text{
     background-image: url(./images/backgroundHero.png);
+}
+
+#card-enterprise-desktop{
+    display: none;
+}
+
+#image-dataAnalytics-desktop{
+    display: none;
+}
+
+#invite-client, #invite-client #image-graphicInvite{
+    background-color: #563FEB;
+    border-radius: 1.25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#invite-client p, #invite-client a, #invite-client h2{
+    color: #fff;
+}
+
+#invite-client img{
+    margin: 0rem 1rem;
+}
+
+#commentary-client{
+    margin: auto;
 }
