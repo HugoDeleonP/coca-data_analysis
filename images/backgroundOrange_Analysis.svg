@@ -1,0 +1,27 @@
+<svg width="181" height="48" viewBox="0 0 181 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.00142598 19.2888C-0.111921 12.481 6.54623 0.849325 14.8727 0.756699L21.8377 0.679195L52.5341 3.42589C53.7661 3.53613 55.0101 3.52175 56.2379 3.3831L85.1611 0.11596C86.0848 0.0115646 87.0177 -0.0222911 87.9491 0.0141839L117.094 1.16041L143.733 2.51326C144.641 2.55954 145.553 2.53821 146.457 2.44997L165.133 0.626017L167.494 0.407154C176.354 -0.413397 180.708 11.2362 180.829 18.5267L180.999 28.6877C181.117 35.8189 173.803 46.3377 168.533 45.9142L149.05 47.0943L98.1471 45.349L62.822 47.9503C61.722 48.0313 60.6146 48.0132 59.5195 47.8965L33.8099 45.155C32.4239 45.0072 31.0195 45.0178 29.6369 45.1862L17.4765 46.6683C8.44632 47.7689 0.301231 37.3012 0.176969 29.837L0.00142598 19.2888Z" fill="#F64D00"/>
+
+<foreignObject x="0" y="0" width="181" height="48">
+    <body xmlns="http://www.w3.org/1999/xhtml" style="margin:0; padding:0;">
+      <div id="textAnalysis-mobile">
+        Analysis
+      </div>
+    </body>
+
+    <style>
+        #textAnalysis-mobile{
+            width:100%;
+            height:100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            font-size: 2.5rem;
+            font-weight:bold;
+            font-family:sans-serif;
+        }
+    </style>
+
+</foreignObject>
+
+</svg>
