@@ -12,16 +12,17 @@
 
 }
 
-h1,h2,h3{
+.desktop{
+    display: none;
+}
+
+h1,h2,h3, h4{
 
     display: inline-block;
 
     font-family: Inter;
     font-weight: 600;
-}
 
-h1{
-    font-size: 2.5rem;
 }
 
 p, span, a{
@@ -35,7 +36,25 @@ p, span, a{
 
 h1, h2, h3, p{
     text-align: center;
+}
 
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    width: 20rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: start;
+    width: 22rem;
+}
+
+p{
+    line-height: 1.625rem;
 }
 
 .headerInner {
@@ -44,7 +63,7 @@ h1, h2, h3, p{
     justify-content: space-between;
     align-items: center;
 
-    margin: 0.75rem 1.25rem;
+    margin: 1.75rem 1.25rem;
 
 }
 
@@ -61,6 +80,11 @@ h1, h2, h3, p{
     
 }
 
+.container{
+    padding: 0rem 1.25rem;
+
+}
+
 #container-text-mobile{
     width: 20rem;
     margin: 1.25rem;
@@ -75,6 +99,7 @@ h1, h2, h3, p{
     flex-direction: column;
     align-content: center;
     align-items: center;
+
 }
 
 .btn{
@@ -99,9 +124,10 @@ img{
     max-width: 100vw;
 }
 
-.container-text{
-
+#hero {
     background-image: url(./images/backgroundHero.png);
+    background-size: 100vw;
+
 }
 
 .container-invite{
@@ -109,14 +135,58 @@ img{
     align-content: space-between;
     gap: 0.75rem;
     align-items: center;
+    margin-bottom: 3.5rem;
 }
 
-#card-enterprise-desktop{
-    display: none;
+.container-visual{
+    background-color: var(--contrast-primary-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2.5rem 0.3rem 3rem 0.3rem;
 }
 
-#image-dataAnalytics-desktop{
-    display: none;
+.container-visual h2{
+    color: #fff;
+    letter-spacing: -0.02rem;
+    width: 20rem;
+}
+
+#card-enterprise img{
+
+    background-color: #fff;
+    border-radius: 1rem;
+
+}
+
+#topics{
+    margin: 2.5rem 1.25rem;
+}
+
+.introduction-feature{
+    padding: 3.5rem 1.25rem 0.5rem 1.25rem;
+}
+
+.topic-feature h3{
+    margin-bottom: 1.5rem;
+}
+
+.row-feature{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#data-analytics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#data-analytics p, #data-analytics h2{
+    text-align: start;
 }
 
 #invite-client, #invite-client #image-graphicInvite{
