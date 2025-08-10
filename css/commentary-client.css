@@ -1,0 +1,17 @@
+/* Commentary client */
+.commentary-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+/* Inputs */
+input {
+    appearance: none;
+}
+
+#page-commentary-client input {
+    border-radius: 50%;
+    border: 0.3rem solid var(--contrast-primary-color);
+}

@@ -1,0 +1,22 @@
+/* Services */
+#services-available {
+    margin: 3.5rem 0;
+}
+
+.services-component {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 1rem;
+}
+
+.services-component p {
+    text-align: start;
+}
+
+.text-services {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+

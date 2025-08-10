@@ -1,0 +1,31 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --primary-color: #546FFA;
+    --contrast-primary-color: #5542F6;
+}
+
+/* Tipografia */
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+    color: #7E8492;
+    line-height: 1.625rem;
+}
+
+a, span {
+    font-weight: 700;
+    font-size: 0.875rem;
+    font-style: normal;
+}
