@@ -1,8 +1,5 @@
 /* Commentary client */
 .commentary-client {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: auto;
 }
 

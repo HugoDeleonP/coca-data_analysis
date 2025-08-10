@@ -3,7 +3,7 @@ h1, h2, p {
     text-align: center;
 }
 
-h3, #features p, #data-analytics p, #data-analytics h2, #call-to-action h2, #call-to-action p, footer h2, footer p {
+h3, #topics p, #data-analytics p, #data-analytics h2, #call-to-action h2, #call-to-action p, footer h2, footer p {
     text-align: start;
 }
 
@@ -39,6 +39,14 @@ img {
 
 
 /* Containers e layout */
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .headerInner {
     display: flex;
     flex-direction: row;
@@ -59,8 +67,8 @@ img {
     display: none;
 }
 
-.container {
-    padding: 0 1.25rem;
+.container-inner {
+    margin: 0 1.25rem;
 }
 
 /* Botões */
@@ -80,6 +88,19 @@ img {
     background-color: #fff;
     padding: 0.875rem 1.25rem;
     border-radius: 6.25rem;
+}
+
+.btn a{
+    padding: 0.875rem 1rem;
+
+}
+
+.advertising{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ededed;
+    border-radius: 6.25rem
 }
 
 /* Cards */
