@@ -1,6 +1,6 @@
 
 #invite-client{
-    padding: 2rem 1rem 3rem 1rem;
+    padding-top: 2rem;
 }
 
 #invite-client {
@@ -20,6 +20,7 @@
 #invite-client p, #invite-client h2 {
     color: #fff;
     text-align: start;
+
 }
 
 #invite-client a {
@@ -28,4 +29,16 @@
 
 #invite-client img {
     margin: 0 1rem;
+}
+
+#invite-textFirst p, #invite-textFirst h2, #invite-textFirst .container-invite{
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+#invite-textSecond p, #invite-textSecond h2{
+    padding: 0rem 1.25rem 1rem 1.25rem;
+}
+
+#invite-textSecond .container-invite{
+    padding-left: 1.25rem;
 }

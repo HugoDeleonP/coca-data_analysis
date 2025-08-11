@@ -22,6 +22,50 @@ h3 {
     width: 22rem;
 }
 
+h4{
+    font-size: 1.125rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+#invite-client a{
+    font-size: 1rem;
+}
+
+#invite-textFirst p{
+    width: 18.9375rem;
+    font-size: 1.125rem;
+
+}
+
+#services-available h2{
+    width: 18rem;
+    text-align: center;
+    letter-spacing: -1%;
+    line-height: 120%;
+}
+
+#services-available h4{
+    width: 17rem;
+}
+
+#services-available p{
+    width: 17.4375rem;
+}
+
+#services-available .highlight h4{
+    font-size: 1.5rem;
+    width: 17.4375rem;
+    height: 5rem;
+}
+
+#services-available .highlight p{
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
 #heading {
     width: 7.25rem;
     height: 2.0625rem;
@@ -85,9 +129,15 @@ img {
 }
 
 .btn-alternative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: #fff;
-    padding: 0.875rem 1.25rem;
     border-radius: 6.25rem;
+    width: 11.6875rem;
+    height: 3.375rem;
+
 }
 
 .btn a{
@@ -102,6 +152,9 @@ img {
     border: 1px solid #ededed;
     border-radius: 6.25rem
 }
+
+/* input  */
+
 
 /* Cards */
 .card-enterprise-mobile, .card-enterprise-desktop {

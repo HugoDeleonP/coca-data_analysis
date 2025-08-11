@@ -3,6 +3,19 @@
     margin: auto;
 }
 
+#author{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.25rem;
+
+    margin: 1.5rem 0rem;
+}
+
+#author p:first-child{
+    color: #000;
+}
+
 /* Inputs */
 input {
     appearance: none;
@@ -11,4 +24,10 @@ input {
 #page-commentary-client input {
     border-radius: 50%;
     border: 0.3rem solid var(--contrast-primary-color);
+
+}
+
+#page-commentary-client {
+    display: flex;
+    gap: 0.5rem;
 }
