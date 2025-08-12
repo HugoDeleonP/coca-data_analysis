@@ -30,6 +30,10 @@ p{
     font-size: 1rem;
 }
 
+#text-dataAnalytics h2{
+    width: 20.9375rem;
+}
+
 #invite-client a, #call-to-action a{
     font-size: 1rem;
 }
@@ -37,13 +41,7 @@ p{
 #invite-client h2{
 color: var(--Neutral-10, #FFF);
 
-/* Heading H4/Inter/Inter */
-font-family: Inter;
-font-size: 2rem;
-font-style: normal;
-font-weight: 600;
-line-height: 120%; /* 2.4rem */
-letter-spacing: -0.02rem;}
+}
 
 #invite-textFirst p{
     width: 18.9375rem;
@@ -77,9 +75,8 @@ letter-spacing: -0.02rem;}
     line-height: 2rem;
 }
 
-footer p{
-    font-weight: 900;
-    font-style: bold;
+.link-rights p{
+    font-weight: 500;
 }
 
 #heading {
@@ -89,7 +86,7 @@ footer p{
 }
 
 #heading span {
-    font-weight: 500;
+    font-family: "Inter Medium";
 }
 
 
@@ -113,7 +110,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.75rem 1.25rem;
+    margin: 1.25rem;
 }
 
 .desktop {
