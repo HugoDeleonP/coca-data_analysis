@@ -12,6 +12,12 @@
     padding: 0.5rem 0.8rem;
 }
 
+.image-inline{
+    display: inline-flex;
+    gap: 0.5rem;               /* Espaço entre elas */
+    vertical-align: middle;
+}
+
 #container-text-mobile {
     width: 20rem;
 }

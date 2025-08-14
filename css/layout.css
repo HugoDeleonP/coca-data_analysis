@@ -12,9 +12,29 @@ h1 {
     font-size: 2.5rem;
 }
 
+@media(min-width: 1440px){
+    h1{
+        font-size: 4.5rem;
+    }
+}
+
 h2 {
     font-size: 2rem;
     width: 20rem;
+}
+
+@media(min-width: 1440px){
+    h2{
+        font-size: 3rem;
+    }
+
+    .introduction-feature h2, #services-available h2, #call-to-action h2{
+        font-size: 3.5rem;
+    }
+
+    footer h2{
+        font-size: 4rem;
+    }
 }
 
 h3 {
@@ -22,12 +42,27 @@ h3 {
     width: 22rem;
 }
 
-h4{
-    font-size: 1.125rem;
+@media (min-width: 1440px) {
+    .commentary-client h3{
+        font-size: 2rem;
+    }
 }
 
 p{
     font-size: 1rem;
+}
+
+@media(min-width: 1440px){
+    p{
+        font-size: 1.125rem;
+    }
+}
+
+
+@media (min-width: 1440px){
+    #container-text-desktop{
+        width: 60.75rem;
+    }
 }
 
 #topics p{
@@ -60,7 +95,7 @@ color: var(--Neutral-10, #FFF);
     line-height: 120%;
 }
 
-#services-available h4{
+#services-available h3{
     width: 17rem;
 }
 
@@ -68,10 +103,21 @@ color: var(--Neutral-10, #FFF);
     width: 17.4375rem;
 }
 
-#services-available .highlight h4{
+#services-available h3{
+    font-size: 1.125rem;
+}
+
+#services-available .highlight h3{
     font-size: 1.5rem;
     width: 17.4375rem;
     height: 5rem;
+}
+
+@media(min-width: 1440px){
+
+    #services-available h3{
+        font-size: 1.5rem;
+    }
 }
 
 #services-available .highlight p{
@@ -121,6 +167,16 @@ img {
     padding: 0.25rem 0rem;
 }
 
+#pages ul, #login ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+
+
 .desktop {
     display: none;
 }
@@ -129,9 +185,16 @@ img {
     display: block;
 }
 
-.menuDesktop {
-    display: none;
+@media(min-width: 1440px){
+    .desktop{
+        display: flex;
+    }
+
+    .mobile{
+        display: none;
+    }
 }
+
 
 .container-inner {
     margin: 0 1.25rem;

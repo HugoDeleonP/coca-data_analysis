@@ -1,0 +1,27 @@
+<svg width="476" height="90" viewBox="0 0 476 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.00375008 36.1665C-0.294333 23.4018 17.2155 1.59248 39.1127 1.41881L57.4296 1.27349L138.156 6.42354C141.396 6.63024 144.668 6.60328 147.896 6.34332L223.96 0.217425C226.389 0.0216835 228.842 -0.0417958 231.292 0.0265948L307.938 2.17576L377.995 4.71236C380.383 4.79913 382.78 4.75915 385.157 4.59369L434.272 1.17378L440.48 0.763414C463.781 -0.775119 475.232 21.0678 475.551 34.7376L475.996 53.7895C476.307 67.1605 457.073 86.8831 443.214 86.0892L391.977 88.3017L258.111 85.0294L165.211 89.9068C162.319 90.0587 159.406 90.0248 156.526 89.8059L88.9145 84.6656C85.2695 84.3885 81.5761 84.4083 77.9403 84.7242L45.9603 87.5031C22.2124 89.5667 0.792189 69.9397 0.4654 55.9445L0.00375008 36.1665Z" fill="#F64D00"/>
+
+<foreignObject x="0" y="0" width="476" height="90">
+    <body xmlns="http://www.w3.org/1999/xhtml" style="margin:0; padding:0;">
+      <div id="textAnalysis-desktop">
+        Data Analysis
+      </div>
+    </body>
+
+    <style>
+        #textAnalysis-desktop{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            align-items: center;
+            color:white;
+            font-size: 4.5rem;
+            font-weight:bold;
+            font-family:sans-serif;
+        }
+    </style>
+
+</foreignObject>
+
+</svg>
