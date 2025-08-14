@@ -12,7 +12,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1024px){
     h1{
         font-size: 4.5rem;
     }
@@ -23,7 +23,7 @@ h2 {
     width: 20rem;
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1024px){
     h2{
         font-size: 3rem;
     }
@@ -42,7 +42,7 @@ h3 {
     width: 22rem;
 }
 
-@media (min-width: 1440px) {
+@media(min-width: 1024px){
     .commentary-client h3{
         font-size: 2rem;
     }
@@ -52,15 +52,24 @@ p{
     font-size: 1rem;
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1024px){
     p{
         font-size: 1.125rem;
     }
 }
 
+#hero-text{
+    display: inline;
+    width: 20.9375rem;
+    height: 12rem;
+}
 
-@media (min-width: 1440px){
-    #container-text-desktop{
+.introduction-feature h2{
+    width: 55rem;
+}
+
+@media(min-width: 1024px){
+    #hero-text{
         width: 60.75rem;
     }
 }
@@ -69,8 +78,19 @@ p{
     width: 16rem;
 }
 
+@media(min-width: 1024px){
+    .row-feature p{
+        width: 20rem;
+    }
+}
 #text-dataAnalytics h2{
     width: 20.9375rem;
+}
+
+@media(min-width: 1024px){
+    #text-dataAnalytics h2{
+        width: 35.5rem;
+    }
 }
 
 #invite-client a, #call-to-action a{
@@ -82,7 +102,7 @@ color: var(--Neutral-10, #FFF);
 
 }
 
-#invite-textFirst p{
+#invite-contentFirst p{
     width: 18.9375rem;
     font-size: 1.125rem;
 
@@ -113,7 +133,7 @@ color: var(--Neutral-10, #FFF);
     height: 5rem;
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1024px){
 
     #services-available h3{
         font-size: 1.5rem;
@@ -123,6 +143,27 @@ color: var(--Neutral-10, #FFF);
 #services-available .highlight p{
     font-size: 1.125rem;
     line-height: 2rem;
+}
+
+@media(min-width: 1024px){
+    
+    #content-commentary h3{
+        width: 43rem;
+    }
+
+    #content-commentary{
+        margin: 6rem 4rem
+    }
+}
+
+@media (min-width: 1024px){
+    #call-to-action h2{
+        width: 43rem;
+    }
+
+    #call-to-action p{
+        width: 33rem;
+    }    
 }
 
 .link-rights p{
@@ -139,6 +180,13 @@ color: var(--Neutral-10, #FFF);
     font-family: "Inter Medium";
 }
 
+@media(min-width: 1024px){
+
+    footer h2{
+        width: 41rem;
+        height: 12rem;
+    }
+}
 
 /* Imagens */
 img {
@@ -185,7 +233,7 @@ img {
     display: block;
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1024px){
     .desktop{
         display: flex;
     }
@@ -250,6 +298,12 @@ img {
     border-radius: 1rem;
     width: 10.625rem;
     height: 6rem;
+}
+
+@media(min-width: 1024px){
+    #card-enterprise-desktop{
+        gap: 3rem;
+    }
 }
 
 .row-card {

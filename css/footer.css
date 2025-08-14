@@ -8,6 +8,13 @@ footer {
     background-position: 170% 110%;
 }
 
+@media(min-width: 1024px){
+
+    footer{
+        background-color: #070020;
+    }
+}
+
 .contact {
     display: flex;
     flex-direction: row;
@@ -64,4 +71,14 @@ hr {
     flex-direction: column;
     margin-top: 1.5rem;
     gap: 1.5rem;
+}
+
+@media(min-width: 1024px){
+
+    .link-rights{
+        flex-direction: row-reverse;
+        
+        justify-content: space-between;
+        
+    }
 }

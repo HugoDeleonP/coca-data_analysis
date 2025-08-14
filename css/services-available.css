@@ -22,3 +22,17 @@
     gap: 1rem;
 }
 
+@media(min-width: 1024px){
+
+    #services-columns{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 7rem
+    }
+
+    #services-components{
+        gap: 3rem;
+    }
+
+}

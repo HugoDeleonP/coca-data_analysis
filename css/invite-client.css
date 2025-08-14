@@ -31,14 +31,40 @@
     margin: 0 1rem;
 }
 
-#invite-textFirst p, #invite-textFirst h2, #invite-textFirst .container-invite{
+@media(min-width: 1024px){
+    #invite-client img{
+        width: 33rem;
+    }
+}
+
+#invite-contentFirst p, #invite-contentFirst h2, #invite-contentFirst .container-invite{
     padding: 0rem 1rem 1rem 1rem;
 }
 
-#invite-textSecond p, #invite-textSecond h2{
+@media(min-width: 1024px){
+    #invite-client{
+        flex-direction: column;
+    }
+
+    #invite-contentFirst{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 2.19rem;
+    }
+    #invite-contentSecond{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3.5rem;
+    }
+}
+
+#invite-contenSecond p, #invite-contenSecond h2{
     padding: 0rem 1.25rem 1rem 1.25rem;
 }
 
-#invite-textSecond .container-invite{
+#invite-contenSecond .container-invite{
     padding-left: 1.25rem;
 }

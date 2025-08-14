@@ -11,6 +11,14 @@
     align-self: center;
 }
 
+@media(min-width: 1024px){
+    #image-dataAnalytics img{
+        width: 33rem;
+
+    }
+}
+
+
 #text-dataAnalytics{
     gap: 1rem;
 }
@@ -19,3 +27,13 @@
     text-align: start;
 }
 
+@media(min-width: 1024px){
+    #data-analytics{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #text-dataAnalytics{
+        align-items: start;
+    }
+}
