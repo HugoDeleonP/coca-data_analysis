@@ -12,6 +12,7 @@ footer {
 
     footer{
         background-color: #070020;
+        padding: 5rem 7.5rem 2.5rem 7.5rem;
     }
 }
 
@@ -55,6 +56,18 @@ hr {
     height: 0.0625rem;
     background-color: #7E8492;
     border: none;
+}
+
+@media(min-width: 1024px){
+
+    hr{
+
+        background-color: #C2C2C2;
+        height: 0.125rem;
+
+    }
+
+
 }
 
 #link {

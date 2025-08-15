@@ -12,14 +12,19 @@
     padding: 0.5rem 0.8rem;
 }
 
-.image-inline{
-    display: inline-flex;
-    gap: 0.5rem;               /* Espaço entre elas */
-    vertical-align: middle;
+#container-text-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-#container-text-mobile {
-    width: 20rem;
+#container-text-desktop h1{
+    flex: 1 1 auto;
+
+}
+
+#container-text-desktop img{
+    flex: 0 0 auto;
 }
 
 #heading{
