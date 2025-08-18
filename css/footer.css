@@ -13,6 +13,9 @@ footer {
     footer{
         background-color: #070020;
         padding: 5rem 7.5rem 2.5rem 7.5rem;
+
+        background-size: 40vw;
+        background-position: 100% 60%;
     }
 }
 
@@ -38,7 +41,7 @@ footer {
     height: 1.5rem;
 }
 
-footer h2, footer p {
+footer span, footer p {
     color: #fff;
     text-align: start;
 }
@@ -47,9 +50,13 @@ footer h2, footer p {
     padding: 1.5rem 0 2.5rem 0;
 }
 
-.contact p {
-    width: 13rem;
-    align-self: center;
+@media(min-width: 1024px){
+    .container-contact{
+        padding: 0rem;
+        margin: 4.13rem 0rem 11.25rem 0;
+
+        align-items: center;
+    }
 }
 
 hr {
@@ -90,8 +97,8 @@ hr {
 
     .link-rights{
         flex-direction: row-reverse;
-        
         justify-content: space-between;
         
+        margin-top: 2.5rem;
     }
 }

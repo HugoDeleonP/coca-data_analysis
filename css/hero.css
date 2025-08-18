@@ -27,10 +27,6 @@
     flex: 0 0 auto;
 }
 
-#heading{
-    width: 7.5rem;
-    height: 3rem;
-}
 
 /* Containers visuais */
 
@@ -43,10 +39,6 @@
     
 }
 
-#started-free a, #watch-demo{
-    width: 10.0625rem;
-    height: 3.0625rem;
-}
 
 #watch-demo a{
     color: var(--contrast-primary-color);
@@ -66,11 +58,12 @@
     padding: 2.5rem 0.3rem 3rem 0.3rem;
 }
 
-
-
-.container-visual h2 {
-    color: #fff;
-    letter-spacing: -0.02rem;
-    width: 20rem;
+@media screen {
+    .container-visual{
+        background-color: var(--contrast-primary-color);
+        background-image: url(../images/ellipse.png);
+        background-repeat: no-repeat;
+        background-position: -5% 170%;
+        position: relative;
+    }
 }
-

@@ -35,4 +35,9 @@
         gap: 3rem;
     }
 
+    #services-available img{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
 }
