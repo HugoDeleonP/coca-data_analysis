@@ -203,6 +203,7 @@ color: var(--Neutral-10, #FFF);
 @media(min-width: 1024px){
     #services-available p{
         width: 26rem;
+        line-height: 2rem;
     }
 
     #services-available .highlight p{
