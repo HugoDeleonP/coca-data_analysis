@@ -46,6 +46,20 @@ footer span, footer p {
     text-align: start;
 }
 
+footer h2 span{
+    font-size: 2rem;
+}
+
+footer h2{
+    text-align: start;
+}
+
+@media(min-width: 1024px){
+    footer h2 span{
+        font-size: 4rem;
+    }
+}
+
 .container-contact {
     padding: 1.5rem 0 2.5rem 0;
 }
