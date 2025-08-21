@@ -5,7 +5,7 @@
 
 @media(min-width: 1024px){
     #invite-client{
-        padding: 2rem 0rem 4rem 0rem;
+        padding: 2rem 0rem 0rem 0rem;
         margin: 0rem 5rem 0rem 5rem;
     }
 }
@@ -34,14 +34,23 @@
     color: #000;
 }
 
-#invite-client img {
-    margin: 0 1rem;
-}
-
 @media(min-width: 1024px){
     #invite-client img{
         width: 33rem;
     }
+
+    #image-womanMRR {
+        position: relative;
+        bottom: 3.5rem;
+    }
+    
+    #invite-contentSecond {
+    }
+    
+    #text-contentSecond .container-invite {
+        margin: 0rem
+    }
+    
 }
 
 #invite-contentFirst p, #invite-contentFirst h2, #invite-contentFirst .container-invite{
@@ -69,7 +78,11 @@
         gap: 3.5rem;
     }
 
-    .container-invite{
+    #text-contentSecond{
+        margin: 4.5rem 0rem 0rem 0rem
+    }
+
+    #text-contentSecond .container-invite{
         margin: 0rem;
     }
 }
@@ -98,7 +111,13 @@
         gap: 1rem;
     }
 
-    #text-contentSecond{
+div#text-contentFirst {
+    margin: 5.2rem 0rem 0rem 0rem;
+}
 
-    }
+    #text-contentSecond{align-self: center;}
+
+div.container-invite {
+    margin: 0rem;
+}
 }
