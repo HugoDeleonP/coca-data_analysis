@@ -12,6 +12,36 @@
     padding: 0.5rem 0.8rem;
 }
 
+#heading span{
+    padding: 0.38rem 0.75rem;
+}
+
+#hero-text span{
+        color: #FFF;
+        font-size: 2.5rem;
+        letter-spacing: -0.045rem;
+}
+
+.text-border{
+    padding: 1rem;
+}
+
+@media(min-width: 1024px){
+
+    #hero{
+        background-image: url(../images/BackgroundHeroDesktop.png);
+        background-position: 17% -190%;
+    }
+
+    #heading span{
+        padding: 0.38rem 0.75rem;
+    }
+
+    .text-border{
+        padding: 1rem;
+    }
+}
+
 #container-text-desktop {
     display: flex;
     flex-wrap: wrap;
@@ -23,19 +53,31 @@
 
 }
 
+#hero-text{
+    background-image: url("../images/backgroundOrange_Data.svg"), url("../images/backgroundOrange_Analysis.svg");
+    background-repeat: no-repeat;
+    background-position: 78% 68%, 51% 101%;
+}
+
 @media(min-width: 1024px) {
 
+    #hero .container-invite{
+        margin: 3.5rem 0rem 9.45rem 0rem;
+    }
+
+
     #hero-text h1{
-        background-image: url("../images/backgroundOrange_desktop.svg");
-        background-repeat: no-repeat;
-        background-position: 79% 101%;
         text-align: center;
     }
 
+    #hero-text{
+        background-image: url("../images/backgroundOrange_desktop.svg");
+        background-repeat: no-repeat;
+        background-position: 80% 87%;
+    }
+
     #hero-text span{
-        color: #FFF;
         font-size: 4.5rem;
-        letter-spacing: -0.045rem;
     }
 
 
@@ -91,12 +133,13 @@
     padding: 2.5rem 0.3rem 3rem 0.3rem;
 }
 
-@media screen {
+@media(min-width: 1024px) {
     .container-visual{
         background-color: var(--contrast-primary-color);
         background-image: url(../images/ellipse.png);
         background-repeat: no-repeat;
-        background-position: -5% 170%;
+        background-position: -5% 150%;
         position: relative;
+        padding: 4rem 12.44rem;
     }
 }

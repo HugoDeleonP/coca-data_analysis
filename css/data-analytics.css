@@ -31,9 +31,17 @@
     #data-analytics{
         flex-direction: row;
         justify-content: space-between;
+        margin: 5.79rem 9rem 5.89rem 9.69rem;
+
     }
 
     #text-dataAnalytics{
         align-items: start;
+        align-self: flex-end;
+        margin: 0rem 0rem 3.125rem 0rem;
     }
+
+#text-dataAnalytics p {
+    width: 28rem;
+}
 }

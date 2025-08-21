@@ -43,6 +43,23 @@ h3 {
 }
 
 @media(min-width: 1024px){
+
+    .title-feature{
+        width: 27rem;
+    }
+
+    #topics .topic-feature:last-child h3 {
+        width: 22rem;
+    }
+
+    #topics .topic-feature:last-child p{
+        width: 20rem;
+    }
+
+    .topic-feature{
+        width: 25rem;
+    }
+
     .commentary-client h3{
         font-size: 2rem;
     }
@@ -57,10 +74,29 @@ p{
         font-size: 1.125rem;
     }
 
+    .container-text p{
+        width: 33.5rem
+    }
+
+    #features #topics p{
+        font-size: 1rem;
+    }
+
     footer p{
         font-size: 1rem;
     }
+
+    .introduction-feature p {
+        width:  39rem;  
+    }
+
+    .headerInner a{
+        font-size: 1rem;
+    }
+
 }
+
+
 
 #heading{
     width: 7.5rem;
@@ -310,7 +346,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0.75rem 1.25rem 2.25rem 1.25rem;
+    margin: 0.75rem 1.25rem 2.5rem 1.25rem;
 }
 
 #logo{

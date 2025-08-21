@@ -7,8 +7,15 @@
     margin: 2.5rem 1.25rem 3.5rem 1.25rem;
 }
 
+
 .introduction-feature {
     padding: 3.5rem 1.25rem 0.5rem 1.25rem;
+}
+
+@media (min-width: 1024px){
+    .introduction-feature{
+        padding: 6rem 1.25rem 0.5rem 1.25rem;
+    }
 }
 
 .topic-feature h3 {
@@ -27,9 +34,13 @@
 
 @media(min-width: 1024px){
     #topics{
-        margin: 0rem 4.95rem 0rem 5rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+        gap: 4.2rem;
+
+        margin: 5.06rem 4.94rem 5.75rem 5rem;
+
     }
 }
