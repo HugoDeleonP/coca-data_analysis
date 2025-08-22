@@ -1,5 +1,11 @@
 # 📌 Atividade de Front-End — Clone de Layout do Figma
 
+## Identificação
+
+Aluno: Hugo Deleon
+Turma: AI MIDS 77
+Unidade Curricular: Programação front-end
+
 ## 🎯 Objetivo
 
 O objetivo desta atividade foi **reproduzir fielmente um layout** desenvolvido no **Figma**, aplicando os conceitos de **HTML, CSS e boas práticas de desenvolvimento front-end**.
@@ -33,8 +39,11 @@ O design original foi fornecido no Figma e serviu como guia para a construção 
 │   └── invite-client.css
 │   └── layout.css
 │   └── main.css
+│   └── responsive.css
 │   └── services-available.css
 ├── /images           # Imagens e ícones usados
+├── /css
+│   └── pages.html
 └── README.md         # Documentação
 ```
 

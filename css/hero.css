@@ -26,7 +26,7 @@
     padding: 1rem;
 }
 
-@media(min-width: 1024px){
+@media(min-width: 1440px){
 
     #hero{
         background-image: url(../images/BackgroundHeroDesktop.png);
@@ -46,11 +46,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-}
-
-#container-text-desktop h1{
-    flex: 1 1 auto;
-
 }
 
 #hero-text{
